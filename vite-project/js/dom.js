@@ -8,6 +8,5 @@
 //   setCounter(0)
 // }
 
-const DOMSelectors = [
-  
-]
+import {lego} from "./menu.js";
+
