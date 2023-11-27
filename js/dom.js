@@ -12,4 +12,3 @@ import {fish} from "./fish.js";
     reset: document.getElementById("reset")
 };
 export {DOMSelectors};
-
