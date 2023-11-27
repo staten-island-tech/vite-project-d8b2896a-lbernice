@@ -1,12 +1,15 @@
-// export function setupCounter(element) {
-//   let counter = 0
-//   const setCounter = (count) => {
-//     counter = count
-//     element.innerHTML = `count is ${counter}`
-//   }
-//   element.addEventListener('click', () => setCounter(counter + 1))
-//   setCounter(0)
-// }
+import "../styles/style.css";
+import {fish} from "./fish.js";
 
-import {lego} from "./menu.js";
+ DOMSelectors = {
+    output: document.getElementById("container"),
+    marine: document.getElementById("marine"),
+    betta: document.getElementById("betta"),
+    cichlid: document.getElementById("cichlid"),
+    goldfish: document.getElementById("goldfish"),
+    koi: document.getElementById("koi"),
+    theme: document.getElementById("changeTheme"),
+    reset: document.getElementById("reset")
+};
+export {DOMSelectors};
 

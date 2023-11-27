@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="dark">
+    <h1 class = "heading">Fishy Store</h1>
 
-    
-    <div class="filter">
-      <button id="">  </button>
-      <button id="">  </button>
-      <button id="">  </button>
-      <button id="">  </button>
+    <button class="themebtn" id="changeTheme">Change Theme</button>
+
+    <div class="typeFilter">
+      <button class="filterbtn" id="marine">Marine & Freshwater</button>
+      <button class="filterbtn" id="betta">Betta</button>
+      <button class="filterbtn" id="cichlid">Cichlid</button>
+      <button class="filterbtn" id="goldfish">Goldfish</button>
+      <button class="filterbtn" id="koi">Koi & Pond</button>
   </div>
+  <button class="resetbtn" id="reset">Reset</button>
 
-    <div class="container"></div>
+  <div class="container"></div>
 
     <script type="module" src="/main.js"></script>
+    <script type="module" src="./js/dom.js"></script>
   </body>
 </html>
