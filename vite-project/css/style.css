@@ -100,11 +100,20 @@ body {
   font-family: 'Playfair Display', serif;
 }
 :root {
-  --dark: rgb(4, 24, 62);
-  --light: rgb(65, 144, 197);
+  --dark: #04183e;
+  --light: #418fc4;
   --primary: var(--dark);
   --secondary: var(--light);
+  --lighttext: #fffff
+  --darktext: #fffff
 }
+.dark {
+  --secondary: var(--light);
+}
+.light {
+  --primary:var(--dark);
+}
+
 .card {
   display: flex;
   flex-direction:column;
@@ -166,14 +175,6 @@ body {
   font-size: 1rem;
   font-family: serif;
   margin-bottom: 1rem;
-  margin-left: 6rem;
-}
-.dark {
-  background-color: var(--secondary);
-  color: var(--secondary)
-}
-.light {
-  background-color: var(--secondary);
-  color: var(--primary)
+  margin-left: 7rem;
 }
 
