@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -93,4 +93,72 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+body {
+  background-color: rgb(65, 144, 197);
+  font-family: 'Playfair Display', serif;
+}
+.card {
+  display: flex;
+  flex-direction:column;
+  background-color:rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 21%;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 9px 10px rgb(125, 167, 189)
+}
+.container {
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.image {
+  width: 32vh;
+  height: 28vh;
+  align-items: center;
+  margin-left: 3rem;
+}
+.name {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: overline;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.filterbtn {
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-family: serif;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.themebtn {
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-family: serif;
+}
+.resetbtn {
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-family: serif;
+}
+.card:hover{
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.button {
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: serif;
+  margin-bottom: 1rem;
+  margin-left: 6rem;
 }

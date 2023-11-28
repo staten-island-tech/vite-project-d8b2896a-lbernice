@@ -1,14 +1,13 @@
-import "../styles/style.css";
-import {fish} from "./fish.js";
-
- DOMSelectors = {
+const DOMSelectors = {
     output: document.getElementById("container"),
+    buttons: document.querySelectorAll(".filterbtn"),
+    light: document.getElementById("light"),
+    dark: document.getElementById("dark"),
+    reset: document.getElementById("reset"),
     marine: document.getElementById("marine"),
     betta: document.getElementById("betta"),
     cichlid: document.getElementById("cichlid"),
     goldfish: document.getElementById("goldfish"),
     koi: document.getElementById("koi"),
-    theme: document.getElementById("changeTheme"),
-    reset: document.getElementById("reset")
 };
 export {DOMSelectors};

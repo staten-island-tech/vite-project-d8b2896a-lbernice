@@ -7,9 +7,12 @@
     <title>Vite App</title>
   </head>
   <body class="dark">
-    <h1 class = "heading">Fishy Store</h1>
+    <h1 class = "heading">Welcome to Fishy Store!</h1>
 
-    <button class="themebtn" id="changeTheme">Change Theme</button>
+    <div class="themes">
+    <button class="themebtn" id="dark">Dark</button>
+    <button class="themebtn" id="light">Light</button>
+    </div>
 
     <div class="typeFilter">
       <button class="filterbtn" id="marine">Marine & Freshwater</button>
@@ -18,11 +21,15 @@
       <button class="filterbtn" id="goldfish">Goldfish</button>
       <button class="filterbtn" id="koi">Koi & Pond</button>
   </div>
+  
+  <div class="refresh">
   <button class="resetbtn" id="reset">Reset</button>
+  </div>
 
-  <div class="container"></div>
 
-    <script type="module" src="/main.js"></script>
-    <script type="module" src="./js/dom.js"></script>
+  <div class="container" id="container"></div>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="css/style.css"></script>
   </body>
 </html>

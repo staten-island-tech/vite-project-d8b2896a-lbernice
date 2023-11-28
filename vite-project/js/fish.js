@@ -2,7 +2,7 @@ const fish = [
     {
         name: "Dragon Scale Male Betta Fish",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5164011?$sclp-prd-main_large$",
-        price: "$9.99",
+        price: "9.99",
         type: "Betta",
         color: "red",
         communityspecies: "no",
@@ -10,7 +10,7 @@ const fish = [
     {
         name: "Crowntail Male Betta Fish",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5107695?$sclp-prd-main_large$",
-        price: "$7.99",
+        price: "7.99",
         type: "Betta",
         color: "blue",
         communityspecies: "no",
@@ -18,7 +18,7 @@ const fish = [
     {
         name: "Dumbo Halfmoon Male Betta Fish",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5210839?$sclp-prd-main_large$",
-        price: "$9.99",
+        price: "9.99",
         type: "Betta",
         color: "purple",
         communityspecies: "no",
@@ -26,7 +26,7 @@ const fish = [
     {
         name: "Premium Butterfly Male Betta Fish",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5249054?$sclp-prd-main_large$",
-        price: "$9.99",
+        price: "9.99",
         type: "Betta",
         color: "red",
         communityspecies: "no",
@@ -34,7 +34,7 @@ const fish = [
     {
         name: "Comet Goldfish",
         image: "https://s7d2.scene7.com/is/image/PetSmart/4032785?$sclp-prd-main_large$",
-        price: "$0.36",
+        price: "0.36",
         type: "Goldfish",
         color: "orange",
         communityspecies: "yes",
@@ -42,7 +42,7 @@ const fish = [
     {
         name: "Yellow Guppy",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5015604?$sclp-prd-main_large$",
-        price: "$3.99",
+        price: "3.99",
         type: "Marine & Freshwater",
         color: "yellow",
         communityspecies: "yes",
@@ -50,7 +50,7 @@ const fish = [
     {
         name: "Platinum Guppy Male",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5292988?$sclp-prd-main_large$",
-        price: "$3.99",
+        price: "3.99",
         type: "Marine & Freshwater",
         color: "white",
         communityspecies: "yes",
@@ -58,7 +58,7 @@ const fish = [
     {
         name: "Blue Wag Platy",
         image: "https://s7d2.scene7.com/is/image/PetSmart/1181752?$sclp-prd-main_large$",
-        price: "$2.99",
+        price: "2.99",
         type: "Marine & Freshwater",
         color: "blue",
         communityspecies: "yes",
@@ -66,7 +66,7 @@ const fish = [
     {
         name: "GloFish Galactic Purple Longfin Tetra",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5277074?$sclp-prd-main_large$",
-        price: "$11.99",
+        price: "11.99",
         type: "Marine & Freshwater",
         color: "purple",
         communityspecies: "yes",
@@ -74,7 +74,7 @@ const fish = [
     {
         name: "Butterfly Koi",
         image: "https://s7d2.scene7.com/is/image/PetSmart/4033736?$sclp-prd-main_large$",
-        price: "$13.99",
+        price: "13.99",
         type: "Koi",
         color: "yellow",
         communityspecies: "yes",
@@ -82,7 +82,7 @@ const fish = [
     {
         name: "Dalmatian Lyretail Molly",
         image: "https://s7d2.scene7.com/is/image/PetSmart/4034838?$sclp-prd-main_large$",
-        price: "$5.49",
+        price: "5.49",
         type: "Marine & Freshwater",
         color: "black",
         communityspecies: "yes",
@@ -90,7 +90,7 @@ const fish = [
     {
         name: "Assorted Veil Angels",
         image: "https://s7d2.scene7.com/is/image/PetSmart/4034910?$sclp-prd-main_large$",
-        price: "$5.99",
+        price: "5.99",
         type: "Marine & Freshwater",
         color: "black",
         communityspecies: "yes",
@@ -98,7 +98,7 @@ const fish = [
     {
         name: "Assorted African Cichlids",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5292974?$sclp-prd-main_large$",
-        price: "$7.99",
+        price: "7.99",
         type: "Cichlid",
         color: "beige",
         communityspecies: "no",
@@ -106,7 +106,7 @@ const fish = [
     {
         name: "Blood-Red Parrot Cichlid",
         image: "https://s7d2.scene7.com/is/image/PetSmart/4034863?$sclp-prd-main_large$",
-        price: "$19.99",
+        price: "19.99",
         type: "Cichlid",
         color: "orange",
         communityspecies: "yes",
@@ -114,7 +114,7 @@ const fish = [
     {
         name: "Electric Yellow Labidochromis African Cichlid",
         image: "https://s7d2.scene7.com/is/image/PetSmart/4031377?$sclp-prd-main_large$",
-        price: "$10.99",
+        price: "10.99",
         type: "Cichlid",
         color: "yellow",
         communityspecies: "no",
@@ -122,7 +122,7 @@ const fish = [
     {
         name: "Assorted Oranda Goldfish",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5152446?$sclp-prd-main_large$",
-        price: "$9.99",
+        price: "9.99",
         type: "Goldfish",
         color: "white",
         communityspecies: "yes",
@@ -130,7 +130,7 @@ const fish = [
     {
         name: "Black Moor Goldfish",
         image: "https://s7d2.scene7.com/is/image/PetSmart/4032316?$sclp-prd-main_large$",
-        price: "$7.99",
+        price: "7.99",
         type: "Goldfish",
         color: "black",
         communityspecies: "yes",
@@ -138,7 +138,7 @@ const fish = [
     {
         name: "Koi Angelfish",
         image: "https://s7d2.scene7.com/is/image/PetSmart/5266408?$sclp-prd-main_large$",
-        price: "$12.99",
+        price: "12.99",
         type: "Koi",
         color: "black",
         communityspecies: "no",
@@ -146,7 +146,7 @@ const fish = [
     {
         name: "Rosy Red Minnow",
         image: "https://s7d2.scene7.com/is/image/PetSmart/4032886?$sclp-prd-main_large$",
-        price: "$0.20",
+        price: "0.20",
         type: "Marine & Freshwater",
         color: "pink",
         communityspecies: "yes",
@@ -154,7 +154,7 @@ const fish = [
     {
         name: "Plecostomus",
         image: "https://s7d2.scene7.com/is/image/PetSmart/4032058?$sclp-prd-main_large$",
-        price: "$6.99",
+        price: "6.99",
         type: "Marine & Freshwater",
         color: "black",
         communityspecies: "no",
