@@ -99,6 +99,12 @@ body {
   background-color: rgb(65, 144, 197);
   font-family: 'Playfair Display', serif;
 }
+:root {
+  --dark: rgb(4, 24, 62);
+  --light: rgb(65, 144, 197);
+  --primary: var(--dark);
+  --secondary: var(--light);
+}
 .card {
   display: flex;
   flex-direction:column;
@@ -162,3 +168,12 @@ body {
   margin-bottom: 1rem;
   margin-left: 6rem;
 }
+.dark {
+  background-color: var(--secondary);
+  color: var(--secondary)
+}
+.light {
+  background-color: var(--secondary);
+  color: var(--primary)
+}
+
