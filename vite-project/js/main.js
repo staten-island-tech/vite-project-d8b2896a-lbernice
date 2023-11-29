@@ -78,3 +78,10 @@ DOMSelectors.buttons.addEventListener("click", function(){
   createCard(fish);
 });
 
+DOMSelectors.reset.addEventListener("click", function(event){
+  event.preventDefault()
+  clear();
+  createCard(fish);
+})
+
+
