@@ -96,16 +96,14 @@ button:focus-visible {
 } */
 
 body {
-  background-color: rgb(65, 144, 197);
   font-family: 'Playfair Display', serif;
 }
 :root {
-  --dark: #04183e;
-  --light: #418fc4;
-  --primary: var(--dark);
-  --secondary: var(--light);
-  --lighttext: #fffff
+  --darkblue: #04183e;
   --darktext: #fffff
+
+  --lightblue: rgb(65, 144, 197);
+  --lighttext: 
 }
 .dark {
   --secondary: var(--light);

@@ -1,8 +1,8 @@
 const DOMSelectors = {
     output: document.getElementById("container"),
     buttons: document.querySelectorAll(".filterbtn"),
-    light: document.getElementById("light"),
-    dark: document.getElementById("dark"),
+    theme: document.getElementById("changeTheme"),
+    theme: document.getElementById("changeTheme"),
     reset: document.getElementById("reset"),
     marine: document.getElementById("marine"),
     betta: document.getElementById("betta"),
