@@ -24,7 +24,7 @@
 // setupCounter(document.querySelector('#counter'))
 
 import '../css/style.css';
-import { fish } from './fish';
+import {fish} from "./fish.js";
 import { DOMSelectors } from './dom';
 
 function createCard(arr){
@@ -41,18 +41,40 @@ function createCard(arr){
 createCard(fish);
 
 
-DOMSelectors.theme.addEventListener("click", function() {
-  if (document.body.classList.contains("light")) {
+DOMSelectors.dark.addEventListener("click", function() {
     document.body.classList.add("dark")
     document.body.classList.remove("light")
-  }
-  else {
+  });
+
+DOMSelectors.light.addEventListener("click", function() {
     document.body.classList.add("light")
     document.body.classList.remove("dark")
-  } 
-})
+});
 
-function typeFilter(){
-  
-}
+// function filter(){
+//   DOMSelectors.buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
+//     let category = filterbtn.textContent.toLowerCase()
+//     let newArr = fish.filter((el) => el.type.includes(category))
+//     DOMSelectors.output.innerHTML = ""
+//     createCard(newArr);
+//   }))
+// };
+
+let buttons = document.querySelectorAll("#marine, #betta, #cichlid, #goldfish, #koi")
+buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
+  let category = filterbtn.textContent;
+  let newArr = fish.filter((fish)=> fish.type.includes(category));
+  clear();
+  createCard(newArr);
+}));
+
+function clear(){
+  const clear = DOMSelectors.output;
+  clear.innerHTML = ""
+};
+
+DOMSelectors.buttons.addEventListener("click", function(){
+  clear();
+  createCard(fish);
+});
 
