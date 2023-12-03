@@ -69,19 +69,22 @@ buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
 }));
 
 function clear(){
-  const clear = DOMSelectors.output;
+  const clear = document.querySelector(".container");
   clear.innerHTML = ""
 };
 
-DOMSelectors.buttons.addEventListener("click", function(){
+// DOMSelectors.buttons.addEventListener("click", function(){
+//   clear();
+//   createCard(fish);
+// });
+
+// DOMSelectors.reset.addEventListener("click", function(event){
+//   event.preventDefault()
+//   clear();
+//   createCard(fish);
+// })
+
+document.getElementById("reset").addEventListener("click", function() {
   clear();
   createCard(fish);
 });
-
-DOMSelectors.reset.addEventListener("click", function(event){
-  event.preventDefault()
-  clear();
-  createCard(fish);
-})
-
-
