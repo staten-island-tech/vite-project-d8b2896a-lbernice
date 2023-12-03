@@ -112,11 +112,13 @@ body {
     --primary: var(--darkblue);
     --secondary: var(--verydarkblue);
     --font: var(--white);
+    --outline: var(--white);
   }
   .light {
     --primary: var(--lightblue);
     --secondary: var(--skyblue);
     --font: var(--black);
+    --outline: var(--black);
   }
 .card {
   display: flex;
@@ -145,7 +147,7 @@ body {
 .name {
   font-size: 1.1rem;
   text-align: center;
-  color: var(--white)
+  color: var(--font)
 }
 .heading {
   text-align: center;
@@ -153,7 +155,7 @@ body {
   text-decoration: overline;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: var(--white)
+  color: var(--font)
 }
 .filterbtn {
   border-radius: 10px;
