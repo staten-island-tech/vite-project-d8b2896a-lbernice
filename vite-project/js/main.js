@@ -1,3 +1,4 @@
+
 import '../css/style.css';
 import {fish} from "./fish.js";
 import { DOMSelectors } from './dom';
