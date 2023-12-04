@@ -107,18 +107,21 @@ body {
     --lightblue: rgb(184, 221, 238);
     --skyblue: rgb(113, 161, 189);
     --black: rgb(0, 0, 0);
+    --gray: rgb(136, 125, 125);
   }
   .dark {
     --primary: var(--darkblue);
     --secondary: var(--verydarkblue);
     --font: var(--white);
     --outline: var(--white);
+    --bg: var(--white);
   }
   .light {
     --primary: var(--lightblue);
     --secondary: var(--skyblue);
     --font: var(--black);
     --outline: var(--black);
+    --bg: var(--gray);
   }
 .card {
   display: flex;

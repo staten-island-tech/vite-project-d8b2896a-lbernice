@@ -48,6 +48,11 @@ function clear(){
   clear.innerHTML = ""
 };
 
+document.getElementById("reset").addEventListener("click", function() {
+  clear();
+  createCard(fish);
+});
+
 // DOMSelectors.buttons.addEventListener("click", function(){
 //   clear();
 //   createCard(fish);
@@ -58,8 +63,3 @@ function clear(){
 //   clear();
 //   createCard(fish);
 // })
-
-document.getElementById("reset").addEventListener("click", function() {
-  clear();
-  createCard(fish);
-});
