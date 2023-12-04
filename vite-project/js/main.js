@@ -26,15 +26,6 @@ DOMSelectors.light.addEventListener("click", function() {
     document.body.classList.remove("dark")
 });
 
-// function filter(){
-//   DOMSelectors.buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
-//     let category = filterbtn.textContent.toLowerCase()
-//     let newArr = fish.filter((el) => el.type.includes(category))
-//     DOMSelectors.output.innerHTML = ""
-//     createCard(newArr);
-//   }))
-// };
-
 let buttons = document.querySelectorAll("#marine, #betta, #cichlid, #goldfish, #koi")
 buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
   let category = filterbtn.textContent;
@@ -52,6 +43,15 @@ document.getElementById("reset").addEventListener("click", function() {
   clear();
   createCard(fish);
 });
+
+// function filter(){
+//   DOMSelectors.buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
+//     let category = filterbtn.textContent.toLowerCase()
+//     let newArr = fish.filter((el) => el.type.includes(category))
+//     DOMSelectors.output.innerHTML = ""
+//     createCard(newArr);
+//   }))
+// }; 
 
 // DOMSelectors.buttons.addEventListener("click", function(){
 //   clear();
