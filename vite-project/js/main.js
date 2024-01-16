@@ -28,13 +28,13 @@ document.getElementById("theme").addEventListener("click", function () {
   }
 });
 
-let buttons = document.querySelectorAll("#marine, #betta, #cichlid, #goldfish, #koi")
-buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
-  let category = filterbtn.textContent;
-  let newArr = fish.filter((fish)=> fish.type.includes(category));
-  clear();
-  createCard(newArr);
-}));
+// let buttons = document.querySelectorAll("#marine, #betta, #cichlid, #goldfish, #koi")
+// buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
+//   let category = filterbtn.textContent;
+//   let newArr = fish.filter((fish)=> fish.type.includes(category));
+//   clear();
+//   createCard(newArr);
+// }));
 
 function clear(){
   const clear = document.querySelector(".container");
@@ -46,22 +46,18 @@ document.getElementById("reset").addEventListener("click", function() {
   createCard(fish);
 });
 
-// function filter(){
-//   DOMSelectors.buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
-//     let category = filterbtn.textContent.toLowerCase()
-//     let newArr = fish.filter((el) => el.type.includes(category))
-//     DOMSelectors.output.innerHTML = ""
-//     createCard(newArr);
-//   }))
-// }; 
 
-// DOMSelectors.buttons.addEventListener("click", function(){
-//   clear();
-//   createCard(fish);
-// });
+const ok = {
+  marine: fish.filter((fishy) => fishy.type.includes("marine")).map((fish) => fish),
+  betta: fish.filter((fishy) => fishy.type.includes("betta")).map((fish) => fish),
+  cichlid: fish.filter((fishy) => fishy.type.includes("cichlid")).map((fish) => fish),
+  goldfish: fish.filter((fishy) => fishy.type.includes("goldfish")).map((fish) => fish),
+};
+console.log(ok);
 
-// DOMSelectors.reset.addEventListener("click", function(event){
-//   event.preventDefault()
-//   clear();
-//   createCard(fish);
-// })
+let button = DOMSelectors.buttons; 
+
+function filter() {
+  button.forEach((btn) => btn.addEventListener("click", function () { console.log(btn);
+  }))
+}
