@@ -28,13 +28,7 @@ document.getElementById("theme").addEventListener("click", function () {
   }
 });
 
-// let buttons = document.querySelectorAll("#marine, #betta, #cichlid, #goldfish, #koi")
-// buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
-//   let category = filterbtn.textContent;
-//   let newArr = fish.filter((fish)=> fish.type.includes(category));
-//   clear();
-//   createCard(newArr);
-// }));
+
 
 function clear(){
   const clear = document.querySelector(".container");
@@ -54,10 +48,43 @@ const ok = {
   goldfish: fish.filter((fishy) => fishy.type.includes("goldfish")).map((fish) => fish),
 };
 console.log(ok);
+const type = {
+  marine: "Marine & Freshwater",
+  betta: "Betta",
+  cichlid: "Cichlid",
+  goldfish: "Goldfish",
+};
 
-let button = DOMSelectors.buttons; 
+let button = DOMSelectors.buttons;
 
 function filter() {
-  button.forEach((btn) => btn.addEventListener("click", function () { console.log(btn);
-  }))
+  button.forEach((btn) => btn.addEventListener("click", function () {
+    let oop = btn.id;
+    clear();
+
+    if (oop.includes("marine")) {
+      createCard(fish.filter((fishy) => fishy.type.includes(type.marine)));
+    }
+    if (oop.includes("betta")) {
+      createCard(fish.filter((fishy) => fishy.type.includes(type.betta)));
+    }
+    if (oop.includes("cichlid")) {
+      createCard(fish.filter((fishy) => fishy.type.includes(type.cichlid)));
+    }
+    if (oop.includes("goldfish")) {
+      createCard(fish.filter((fishy) => fishy.type.includes(type.goldfish)));
+    }
+  }));
 }
+
+filter();
+createCard(fish);
+
+// MR WHALEN SAID NOT TO COPY HIM 
+// let buttons = document.querySelectorAll("#marine, #betta, #cichlid, #goldfish, #koi")
+// buttons.forEach((filterbtn) => filterbtn.addEventListener("click", function(){
+//   let category = filterbtn.textContent;
+//   let newArr = fish.filter((fish)=> fish.type.includes(category));
+//   clear();
+//   createCard(newArr);
+// }));
